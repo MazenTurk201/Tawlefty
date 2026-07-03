@@ -3,7 +3,6 @@ import SliderInputWidget from '../Widgets/SliderInputWidget';
 // import ThemeToggle from '../Utilties/changeMode';
 // import LanguageToggle from '../Utilties/changeLang';
 // import t from "@/componants/Data/translation";
-import NavBar from '../Modules/navBar';
 import { useTranslation } from 'react-i18next';
 import { useTheme } from '../Utilties/changeMode';
 
@@ -21,7 +20,6 @@ export default function Main() {
 
     return (
         <main className="flex flex-1 w-full flex-col items-center py-22 md:pt-32 px-16 bg-white dark:bg-black not-sm:p-5 gap-5">
-            <NavBar />
             <img
                 key={theme}
                 src="/images/logo.png"

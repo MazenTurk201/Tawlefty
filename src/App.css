@@ -11,6 +11,8 @@
   --foreground: oklch(0.145 0 0);
   --main: #e100ff;
   --main-hover: #c000ff;
+  --background-main: #e100ff20;
+  --border-color: #9500a9;
   --card: oklch(96.7% 0.003 264.542);
   --card-foreground: oklch(0.145 0 0);
   --primary: oklch(0.205 0 0);
@@ -77,4 +79,11 @@ button:hover {
 
 .makeStroke{
   filter: drop-shadow(0px 0px 10px var(--main));
+}
+
+footer{
+  background-color: var(--background-main);
+  border: 2px solid var(--border-color);
+  border-top-left-radius: var(--radius-4xl);
+  border-top-right-radius: var(--radius-4xl);
 }

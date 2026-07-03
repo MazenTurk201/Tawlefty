@@ -1,4 +1,3 @@
-import Logo from '../../../src/assets/images/MT.png';
 import {
     Accordion,
     AccordionItem,
@@ -15,7 +14,7 @@ function ListItem(Title: string, Link: string) {
 function Footer() {
     return <footer className='w-full flex not-sm:flex-col items-center justify-center gap-5 p-10 bg-zinc-50 dark:bg-black text-zinc-800 dark:text-zinc-200'>
         <div className='flex flex-col items-center justify-center text-left gap-3'>
-            <img src={Logo} alt="Turk Logo" className="w-20 h-20" />
+            <img src="/images/MT.png" alt="Turk Logo" className="w-20 h-20" />
             <p>Thanks for visiting my portfolio! {"<3`"}</p>
             <p>&copy; {new Date().getFullYear()} Mazen Sameh. All rights reserved.</p>
         </div>
